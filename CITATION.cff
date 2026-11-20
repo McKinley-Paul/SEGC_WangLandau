@@ -3,9 +3,10 @@ message: "If you use this software, please cite it as below, together with Desgr
 title: "SEGC_WangLandau: expanded grand canonical Wang-Landau sampling of the Lennard-Jones fluid"
 authors:
   - family-names: Paul
-    given-names: McKinley
+    given-names: McKinley K.
 version: 1.0.0
-date-released: 2026-11-18
+doi: 10.5281/zenodo.24388217
+date-released: 2026-11-20
 license: MIT
 repository-code: "https://github.com/McKinley-Paul/SEGC_WangLandau"
 keywords:
