@@ -1,0 +1,5 @@
+run,cpu_hours,converged,mc_moves,cpu_model
+1,0.21,true,341000001,Intel Xeon 6972P
+2,0.37,true,572000001,Intel Xeon 6972P
+3,0.11,true,147000001,Intel Xeon 6972P
+4,0.29,true,455000001,Intel Xeon 6972P

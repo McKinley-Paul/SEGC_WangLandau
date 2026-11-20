@@ -1,0 +1,7 @@
+*.jld2
+julia_out.txt
+slurm-*.out
+restarts.txt
+examples/output/
+test/wl_progress_log.txt
+.DS_Store

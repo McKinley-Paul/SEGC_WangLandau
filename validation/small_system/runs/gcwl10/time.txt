@@ -1,0 +1,1 @@
+gcwl seed 4010 wall_s 5.7 iters 5000001 converged true

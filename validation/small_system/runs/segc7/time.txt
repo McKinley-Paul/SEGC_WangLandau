@@ -1,0 +1,1 @@
+segc seed 3007 wall_s 969.1 iters 1899690000 converged true

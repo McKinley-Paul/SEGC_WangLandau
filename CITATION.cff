@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, together with Desgranges and Delhommelle (2012)."
+title: "SEGC_WangLandau: expanded grand canonical Wang-Landau sampling of the Lennard-Jones fluid"
+authors:
+  - family-names: Paul
+    given-names: McKinley
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/McKinley-Paul/SEGC_WangLandau"
+keywords:
+  - Wang-Landau sampling
+  - grand canonical ensemble
+  - expanded ensemble
+  - partition function
+  - Lennard-Jones fluid
+  - Monte Carlo
+references:
+  - type: article
+    authors:
+      - family-names: Desgranges
+        given-names: C.
+      - family-names: Delhommelle
+        given-names: J.
+    title: "Evaluation of the grand-canonical partition function using expanded Wang-Landau simulations. I. Thermodynamic properties in the bulk and at the liquid-vapor phase boundary"
+    journal: "The Journal of Chemical Physics"
+    volume: 136
+    start: 184107
+    year: 2012
+    doi: 10.1063/1.4712023

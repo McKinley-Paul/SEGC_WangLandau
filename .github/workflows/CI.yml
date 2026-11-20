@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      # Pkg.test() fails on Julia 1.12 for this project ("expected package Test to be registered"), so the tests are
+      # run as a script in the package environment; Test is a standard library and loads from the default load path.
+      - name: Instantiate
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+      - name: Run tests
+        run: julia --project=. test/runtests.jl
